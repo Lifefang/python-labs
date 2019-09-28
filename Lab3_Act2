@@ -1,0 +1,59 @@
+# By submitting this assignment, all team members agree to the following:
+#  “Aggies do not lie, cheat, or steal, or tolerate those who do”
+#  “I have not given or received any unauthorized aid on this assignment”
+#
+# Names:          Isaac Chang
+#                 Matthew Rodriguez
+#                 James Phillips
+#                 Ryan Walterbach
+# Section:        537
+# Assignment:     Lab 3, Act 2-pdf
+# Date:           9/18/2019
+a)
+User_one_birthday
+User_two_birthday
+User_three_birthday
+User_four_birthday
+User_one_name
+User_two_name
+User_three_name
+User_four_name
+all the birthday and name variables will be strings
+all of the variables are birthdays or names
+b)
+the code will work by first getting the users to input their birthdays and name in the format of month/day/year
+the and year will be entered its entirety alongside the month and day being entered as as integer. Ex) 03/14/2000
+The name will be entered in order of First and Last
+c)
+the output will be formatted with neat and clean columns and rows
+The name will be presented relative to the y-axis
+The birthday will be presented relative to the x-axis
+d) wrote code
+e) done
+f)
+    a)
+        After looking at the other teams code we decided against modifying our existing code any further.
+
+
+    b)
+         question one )
+         our variables were vary similar the only exception was the underscores were used differently.
+
+         question two )
+          yes they had the same birthday  format as us and we used the same variable types.
+         instead of doing xx\xx\xxxx we could have done xx\xx\xx for the last two digests of the year
+
+         question three )
+         yes, we expected to have the data outputted in a column however the spacing between columns differed,
+          we adjusted the spacing by 20 where as Braden's group did this by 15.
+
+          question four )
+          yes the formatting was clear and easy to understand.
+
+
+
+
+
+
+
+
