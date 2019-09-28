@@ -9,11 +9,15 @@
 
 from math import *
 print("Part C")
-print("This program is going to find and count all the numbers between 2 and 100") # what the program is asking
+print("This program is going to find and count all the prime numbers between 2 and 100") # what the program is asking
+total_prime_numbers = 0
 for n in range(2, 101):
     divisor = factorial(n - 1) + 1
     divisible_by_n = divisor % n
     if divisible_by_n == 0:
+        total_prime_numbers = total_prime_numbers + 1
         print(n, "is prime")
     else:
         print(n, "is not prime")
+print()
+print("There are", total_prime_numbers, "prime numbers between 2 and 100")
