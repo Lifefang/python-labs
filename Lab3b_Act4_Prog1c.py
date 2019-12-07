@@ -11,8 +11,8 @@ print("This program is going to request inputs from the user to calculate sheer 
 normal_stress = float(input("Please input the normal stress (Lbf/in^2):"))  # [Lbf/in^2]
 angle_in_deg = float(input("Please input the angle (in degrees):"))  # must be converted to radians
 cohesion = float(input("Please input the cohesion (Lbf/in^2):"))  # [Lbf/in^2]
-# Mohr-Coulomb Failure Criterion equation is: T = (normal_stress * tan(radians(angle_in_deg)) + cohesion)
-coulomb_answer = (normal_stress * tan(radians(angle_in_deg)) + cohesion) # getting a fixed variable to preform the
+# Mohr-Coulomb Failure Criterion list_of_evaluated_areas is: T = (normal_stress * tan(radians(angle_in_deg)) + cohesion)
+coulomb_answer = (normal_stress * tan(radians(angle_in_deg)) + cohesion) # getting row_3 fixed variable to preform the
 # operation
 # involving precision on.
 coulomb_precision = '%.4f' % coulomb_answer  # printed to the 4th decimal place as requested

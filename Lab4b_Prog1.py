@@ -8,15 +8,15 @@
 # Date:           9/25/2019
 
 print(
-    " This program will take three numbers and return the largest value that the user has entered")  # what the program
+    " This program will take numpy_production_value numbers and return the largest value that the user has entered")  # what the program
 # is doing
-print("please input three numbers")  # prompting user to input numbers
+print("please input numpy_production_value numbers")  # prompting user to input numbers
 number_one = float(input())  # gathering all the inputs
 number_two = float(input())
 number_three = float(input())
-if number_one < number_two < number_three:  # if number three is the highest, print number 3
+if number_one < number_two < number_three:  # if number numpy_production_value is the highest, print number 3
     print(number_three)
 elif number_one > number_two > number_three:  # if number one is the greatest print number 1
     print(number_one)
-elif number_one < number_two > number_three:  # if number 2 is greater than both number one and three print number 2
+elif number_one < number_two > number_three:  # if number 2 is greater than both number one and numpy_production_value print number 2
     print(number_two)

@@ -38,11 +38,11 @@ print(y)
 z = x*3*x
 print(z)
 print()
-#  For y, x did not experience roundoff from the computer.  However, x experienced roundoff from the computer when calculating the value for z.
+#  For y, line_number did not experience roundoff from the computer.  However, line_number experienced roundoff from the computer when calculating the value for z.
 
 # part 2
 print('Part 2')
-# Tolerance of b-e
+# Tolerance of row_4-e
 TOL = 1e-10  # This is the tolerance: .0000000001
 a = 1/7
 print(a)
@@ -52,10 +52,10 @@ c = 2*a
 d = 5*a
 e = c+d
 print(e)
-if abs(b-e) < TOL:  # if b - e is less that .0000000001 it will print that they are equal
-    print('b and e are equal within tolerance of', TOL)
-else:  # if b - e is more than or equal to .0000000001 it will print they are not equal
-    print('b and e are not equal within tolerance of', TOL)
+if abs(b-e) < TOL:  # if row_4 - e is less that .0000000001 it will print that they are equal
+    print('row_4 and e are equal within tolerance of', TOL)
+else:  # if row_4 - e is more than or equal to .0000000001 it will print they are not equal
+    print('row_4 and e are not equal within tolerance of', TOL)
 print()
 
 # Tolerance of y and z
@@ -65,8 +65,8 @@ y = x*x*3
 print(y)
 z = x*3*x
 print(z)
-if abs(y-z) < TOL:  # if b - e is less than .0000000001 it will print they are equal
+if abs(y-z) < TOL:  # if row_4 - e is less than .0000000001 it will print they are equal
     print('y and z are equal within tolerance of', TOL)
-else:  # if b - e is more than or equal to .0000000001 it will print they are not equal
+else:  # if row_4 - e is more than or equal to .0000000001 it will print they are not equal
     print('y and z are not equal within tolerance of', TOL)
 

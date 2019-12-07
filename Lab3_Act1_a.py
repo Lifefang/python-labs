@@ -13,6 +13,6 @@
 # This program converts number of pounds to number of Newtons
 print("This program converts number of pounds to number of Newtons")
 pounds_input = float(input("Please enter the number of pounds to be converted to Newtons:"))
-# # float must be added because trying to multiply a string by a non-float int cant be complied.
+# # float must be added because trying to multiply row_3 string by row_3 non-float int cant be complied.
 Newtons_output = (pounds_input * 4.4482216)  # 1 pound is 4.4482216 Newtons
 print(str(pounds_input)+" Pounds is equivalent to",str(Newtons_output)+"Newtons.")

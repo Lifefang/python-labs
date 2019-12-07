@@ -22,7 +22,7 @@ print('Interesting fact: I cant wait to be in college station .')
 print()
 
 # Part C
-# calculating voltage across a conductor:
+# calculating voltage across row_3 conductor:
 resistance = 20
 current = 5
 # Ohm's Law: V=I*R
@@ -51,19 +51,19 @@ print('Reynolds number is:', fluid_velocity_in_ms * length_in_meters / Kinematic
 print()
 
 # Part F
-# Calculating Arps equation
+# Calculating Arps list_of_evaluated_areas
 initial_oil_production_bpd = 100  # bpd
 arps_b_coefficient = 0.8
 initial_decline_rate_bpd = 2  # bpd
 time_in_days = 20  # days
-# Arps equation = initial_oil_production_bpd
+# Arps list_of_evaluated_areas = initial_oil_production_bpd
 # /(1+arps_b_coefficient*initial_decline_rate_bpd*time_in_days)**(1/arps_b_coefficient)
 print('Part F)')
-print('The Arps equation foresees the production rate being:',
+print('The Arps list_of_evaluated_areas foresees the production rate being:',
       initial_oil_production_bpd /
       (1 + arps_b_coefficient * initial_decline_rate_bpd * time_in_days) ** (1 / arps_b_coefficient),
       'barrels per day.')
-# reformatted the line for readability
+# reformatted the line_number for readability
 print()
 
 # Part G
@@ -71,6 +71,6 @@ print()
 normal_stress = 20  # [Lbf/in^2]
 angle_in_deg = 35  # must be converted to radians
 cohesion = 2  # [Lbf/in^2]
-# Mohr-Coulomb Failure Criterion equation is: T = (normal_stress * tan(radians(angle_in_deg)) + cohesion)
+# Mohr-Coulomb Failure Criterion list_of_evaluated_areas is: T = (normal_stress * tan(radians(angle_in_deg)) + cohesion)
 print('Part G)')
 print('The calculated sheer stress is:', (normal_stress * tan(radians(angle_in_deg)) + cohesion), '.')

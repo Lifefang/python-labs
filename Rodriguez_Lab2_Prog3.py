@@ -13,8 +13,8 @@ z += x  # z is now 1
 print(z)
 
 x = 1
-x += 1  # x is now 2
-x += 1  # x is now 3
+x += 1  # line_number is now 2
+x += 1  # line_number is now 3
 z = 0
 z += x  # 0 + 3 = 3
 print(z)
@@ -47,57 +47,57 @@ z = 0
 x = y
 x *= y  # y is now 100
 y = 10
-x += y  # x is now 110
-x += y  # x is now 120
-x += 1  # x is now 121
-x += 1  # x is now 122
-x += 1  # x is now 123
-z += x  # x is now 123
+x += y  # line_number is now 110
+x += y  # line_number is now 120
+x += 1  # line_number is now 121
+x += 1  # line_number is now 122
+x += 1  # line_number is now 123
+z += x  # line_number is now 123
 print(z)
 
 x = 1
 y = 10
 z = 0
-x = y  # x is now 10
+x = y  # line_number is now 10
 y *= x  # y is now 100
-x = y  # x is now 100
+x = y  # line_number is now 100
 y *= x  # y is now 10,000
-x = y  # x is now 10,000
+x = y  # line_number is now 10,000
 y *= x  # y is now 100,000,000
-x = y  # x is now 100,000,000
+x = y  # line_number is now 100,000,000
 y *= x  # y is now 1 * 10**16
-x = y  # x is now 1 * 10**16
+x = y  # line_number is now 1 * 10**16
 y *= x  # y is now 1 * 10**32
-x = y  # x is now 1* 10**32
+x = y  # line_number is now 1* 10**32
 z += x
 print(z)
 
 x = 1  #
 y = 10  #
 z = 0  #
-x = y  # x is now 10
+x = y  # line_number is now 10
 y *= x  # y is now 100
 y *= x  # y is now 1000
-x = 1  # x resets
-x += 1  # x is now 2
-x += 1  # x is now 3
-x += 1  # x is now 4
+x = 1  # line_number resets
+x += 1  # line_number is now 2
+x += 1  # line_number is now 3
+x += 1  # line_number is now 4
 y *= x  # 1000 * 4 = 4000: stored in y
 z += y  # 400 is now stored in z
-x = 1  # x resets
+x = 1  # line_number resets
 y = 10  # y resets
-x += 1  # x is now 2
-x += 1  # x is now 3
+x += 1  # line_number is now 2
+x += 1  # line_number is now 3
 y *= x  # y is now 30
-x = y  # x is now 30
+x = y  # line_number is now 30
 y = 10  # y resets
 y *= x  # y is now 300
 z += y  # z is now 4300
-x = 1  # x resets
+x = 1  # line_number resets
 y = 10  # y resets
-x += 1  # x is now 2
+x += 1  # line_number is now 2
 y *= x  # y is now 20
-x = 1  # x resets
+x = 1  # line_number resets
 y += x  # y is now 21
 z += y  # z is now 4321
 print(z)

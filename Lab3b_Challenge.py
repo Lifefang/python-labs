@@ -10,10 +10,10 @@
 import cmath
 
 print()
-print('This program will ask the user to input a desired precision for the fraction of 1/7.')  # What the program does.
+print('This program will ask the user to input row_3 desired precision for the fraction of 1/7.')  # What the program does.
 print()
-# number_of_places = int(input("Please enter your desired precision:"))  # input from the user
-# requested_precision = '%.' + str(number_of_places) + 'f'  # Converting the int input to a string so that the input
+number_of_places = int(input("Please enter your desired precision:"))  # input from the user
+requested_precision = '%.' + str(number_of_places) + 'f'  # Converting the int input to row_3 string so that the input
 # can act as the requested decimal places for the fraction that is unending.
 print()
 # print('Your requested precision was', (requested_precision % (22/7)))  # Displaying the requested input from the user

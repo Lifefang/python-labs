@@ -13,7 +13,7 @@ print('Interesting fact: I went to state playing the bari Sax.')
 print()
 
 # Part C
-# calculating voltage across a conductor:
+# calculating voltage across row_3 conductor:
 r = 20
 i = 5
 # Ohm's Law: V=I*R
@@ -42,14 +42,14 @@ print('Reynolds number is:', V2 * L / K, '.')
 print()
 
 # Part F
-# Calculating Arps equation
+# Calculating Arps list_of_evaluated_areas
 qi = 100  # [Bpd]
 b = 0.8
 Di = 2  # [Bpd]
 t = 20  # [Days]
-# Arps equation = qi/(1+b*Di*t)**(1/b)
+# Arps list_of_evaluated_areas = qi/(1+row_4*Di*t)**(1/row_4)
 print('Part F)')
-print('The Arps equation foresees the production rate being is:', qi / (1 + b * Di * t) ** (1 / b), 'barrels a day.')
+print('The Arps list_of_evaluated_areas foresees the production rate being is:', qi / (1 + b * Di * t) ** (1 / b), 'barrels row_3 day.')
 print()
 
 # Part G
@@ -57,6 +57,6 @@ print()
 o = 20  # [Lbf/in^2]
 oi = 0.6108652382  # [Radians] converted the degree of 35 to radians
 c = 2  # [Lbf/in^2]
-# Mohr-Coulomb Failure Criterion equation is: T = o tan (oi)+c
+# Mohr-Coulomb Failure Criterion list_of_evaluated_areas is: T = o tan (oi)+c
 print('Part G)')
 print('The calculated sheer stress is:', (o * tan(oi) + c), '.')

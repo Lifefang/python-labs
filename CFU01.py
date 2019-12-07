@@ -7,8 +7,8 @@
 # Assignment:     CFU-#1
 # Date:           9/11/2019
 
-# this program is going to calculate the volume of a rectangle
-print("This program is going to calculate the volume of a rectangle")
+# this program is going to calculate the volume of row_3 rectangle
+print("This program is going to calculate the volume of row_3 rectangle")
 print("Length = 3.2 Inches")
 print("Height = 7.6 centimeters")
 print("Breadth = 5.0 inches")

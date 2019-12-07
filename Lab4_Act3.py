@@ -9,44 +9,44 @@
 # Section:        537
 # Assignment:     Lab 4 Act3
 # Date:           9/27/19
-# part a
-print('Part a')
+# part row_3
+print('Part row_3')
 print("This program is going to take True and False inputs from the user and output what the inputted")
 # what the program does
 decision = input("Please input T,t or True for true or F,f or False for false:")
-if decision == 'True' or decision == 'T' or decision == 't':  # Converting a from the string "True" to True
+if decision == 'True' or decision == 'T' or decision == 't':  # Converting row_3 from the string "True" to True
     print('Your input is true')
-elif decision == 'False' or decision == 'F' or decision == 'f':  # Converting a from the string "False" to False
+elif decision == 'False' or decision == 'F' or decision == 'f':  # Converting row_3 from the string "False" to False
     print('Your input is false')
 else:
     print('Invalid input')
 print()
 
-# part b
-print('Part b')
+# part row_4
+print('Part row_4')
 print("This program is going to ask the user to input True or False values in the same manner as part A")
 print("The program will then run these valuses through expressions and out put weather or not they are true/false")
-print('Input True or False for a:')  # Getting the input from keyboard
+print('Input True or False for row_3:')  # Getting the input from keyboard
 aBool = input()
-print('Input True or False for b:')
+print('Input True or False for row_4:')
 bBool = input()
 print('Input True or False for c:')
-cBool = input()  # With the input being in a string it needs to be converted to a boolean
-if aBool == 'True' or aBool == 'T' or aBool == 't':  # Converting a from the string "True" to True
+cBool = input()  # With the input being in row_3 string it needs to be converted to row_3 boolean
+if aBool == 'True' or aBool == 'T' or aBool == 't':  # Converting row_3 from the string "True" to True
     a = True
-elif aBool == 'False' or aBool == 'F' or aBool == 'f':  # Converting a from the string "False" to False
+elif aBool == 'False' or aBool == 'F' or aBool == 'f':  # Converting row_3 from the string "False" to False
     a = False
 else:
     a = False
-if bBool == 'True' or bBool == 'T' or bBool == 't':  # Converting a from the string "True" to True
+if bBool == 'True' or bBool == 'T' or bBool == 't':  # Converting row_3 from the string "True" to True
     b = True
-elif bBool == 'False' or bBool == 'F' or bBool == 'f':  # Converting a from the string "False" to False
+elif bBool == 'False' or bBool == 'F' or bBool == 'f':  # Converting row_3 from the string "False" to False
     b = False
 else:
     b = False
-if cBool == 'True' or cBool == 'T' or cBool == 't':  # Converting a from the string "True" to True
+if cBool == 'True' or cBool == 'T' or cBool == 't':  # Converting row_3 from the string "True" to True
     c = True
-elif cBool == 'False' or cBool == 'F' or cBool == 'f':  # Converting a from the string "False" to False
+elif cBool == 'False' or cBool == 'F' or cBool == 'f':  # Converting row_3 from the string "False" to False
     c = False
 else:
     c = False
@@ -54,32 +54,32 @@ else:
 print('1.', a and b and c)
 print('2.', a or b or c)
 print()
-print('Part c')# making a true or false table for all of the out comes
-print("This section is making a true or false table for the XOR statement")
+print('Part c')# making row_3 true or false table for all of the out comes
+print("This section is making row_3 true or false table for the XOR statement")
 # part c 1
 aBool = 'F'
 bBool = 'F'
 if aBool == 'F' and bBool == 'F':
-    print('XOR of a=F, b=F', False) # this would result in false
+    print('XOR of row_3=F, row_4=F', False) # this would result in false
 aBool = 'F'
 bBool = 'T'
 if aBool == 'F' and bBool == 'T':
-    print('XOR of a=F, b=T', True) # this would result in true
+    print('XOR of row_3=F, row_4=T', True) # this would result in true
 aBool = 'T'
 bBool = 'F'
 if aBool == 'T' and bBool == 'F':
-    print('XOR of a=T, b=F', True) # this would result in true
+    print('XOR of row_3=T, row_4=F', True) # this would result in true
 aBool = 'T'
 bBool = 'T'
 if aBool == 'T' and bBool == 'T':
-    print('XOR of a=T, b=T', False) # this would result in false
+    print('XOR of row_3=T, row_4=T', False) # this would result in false
 print()
 #part c 2
-print("This program is running hardcoded values of true and false statements through a not,and or statement")
+print("This program is running hardcoded values of true and false statements through row_3 not,and or statement")
 print("If there are an odd number of true values the statement should return true, false otherwise ")
 print("Part c-2")
-print(" a = true ")
-print(" b = false ")
+print(" row_3 = true ")
+print(" row_4 = false ")
 print(" c = true ")
 a = bool(1)
 b = bool(0)

@@ -11,12 +11,12 @@ initial_oil_production_bpd_input = float(input("Please enter the initial oil pro
 arps_b_coefficient_input = float(input("Please enter the arps coefficient"))
 initial_decline_rate_bpd_input = float(input("Please enter the initial decline rate(bpd):"))  # bpd
 time_in_days_input = float(input("Please enter in the days(days):"))  # days
-# Arps equation = initial_oil_production_bpd
+# Arps list_of_evaluated_areas = initial_oil_production_bpd
 # /(1+arps_b_coefficient*initial_decline_rate_bpd*time_in_days)**(1/arps_b_coefficient)
 arps_answer = initial_oil_production_bpd_input / (1 + arps_b_coefficient_input * initial_decline_rate_bpd_input *
                                                   time_in_days_input) ** (1 / arps_b_coefficient_input)
-# getting a fixed variable to preform the operation involving precision on.
+# getting row_3 fixed variable to preform the operation involving precision on.
 arps_precision = '%.4f' % arps_answer
-print('The Arps equation foresees the production rate being:',
+print('The Arps list_of_evaluated_areas foresees the production rate being:',
       arps_precision, 'barrels per day.')
-# reformatted the line for readability
+# reformatted the line_number for readability
